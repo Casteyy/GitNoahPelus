@@ -1,0 +1,270 @@
+.background {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: linear-gradient(rgba(125, 156, 177, 0.3) 1px, transparent 1px), linear-gradient(rgba(125, 156, 177, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(125, 156, 177, 0.3) 1px, transparent 1px);
+    background-size: 50px 50px, 10px 10px, 10px 10px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+#logo {
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+#nav {
+    display: flex;
+    margin: 50px;
+    margin-top: -8%;
+    margin-left: 40%;
+}
+
+.disposition-header {
+    padding: 20px;
+    padding-right: 20px;
+
+}
+
+#trait-orange {
+    border-top: 5px solid rgb(248, 74, 5);
+    width: 100px;
+}
+
+#trait-jaune {
+    border-top: 5px solid rgb(247, 232, 28);
+    width: 170px;
+}
+
+#trait-vert {
+    border-top: 5px solid rgb(107, 189, 151);
+    width: 125px;
+}
+
+#trait-bleu {
+    border-top: 5px solid rgb(2, 136, 177);
+    width: 135px;
+}
+
+#trait-violet {
+    border-top: 5px solid rgb(160, 77, 185);
+    width: 120px;
+}
+
+.list-header
+ {
+    margin-left: -35px;
+    padding-bottom: 5px;
+    font-family: "DroidSans";
+    color: grey;
+    font-size: 12px;
+    font-weight: lighter;
+    list-style-type: none;
+
+}
+
+#video {
+    display: block;
+    margin: 0 auto;
+    margin-top: -3%;
+}
+
+#separation {
+    font-family: "DroidSerif";
+    font-style: italic;
+    color: grey;
+    font-size: 17px;
+}
+
+#commentaire {
+    text-align: center;
+}
+
+#dessus-video {
+    margin-top: -2%;
+    margin-bottom: 4%;
+    border-top: 1.5px solid rgba(125, 156, 177, 0.3);
+}
+
+#dessous-video {
+    margin-top: 1%;
+    border-top: 1.5px solid rgba(125, 156, 177, 0.3);
+    margin-bottom: 1%;
+}
+
+#dessous-com {
+    border-top: 1.5px solid rgba(125, 156, 177, 0.3);
+    margin-top: 1%;
+}
+
+#dessous-article,
+#dessus-footer {
+    border-top: 1.5px solid rgba(125, 156, 177, 0.3);
+    margin-bottom: 1%;
+}
+
+#articles {
+    display: flex;
+}
+
+#golf-general {
+    border: solid 2px rgba(125, 156, 177, 0.3);
+    padding: 10px;
+    margin: 20px;
+    margin-left: 20%;
+}
+
+#fastfood-general {
+    margin-top: 220px;
+    margin-left: -14%;
+    margin-right: 150px;
+}
+
+.image-accrobranche {
+    border: solid 2px rgba(125, 156, 177, 0.3);
+    padding: 10px;
+    margin: 2px;
+}
+
+.elements-footer {
+    padding-right: 5%;
+}
+
+#divers {
+    margin-left: 20%;
+    display: flex;
+}
+
+.list-footer {
+    margin-left: -40px;
+    list-style-type: none;
+}
+
+footer {
+    display: flex;
+
+}
+
+#reseaux-sociaux {
+    margin-left: 45%;
+    margin-top: 15px;
+}
+
+
+
+.contenu-article {
+    font-family: "DroidSansBold";
+    color: grey;
+    font-size: 15px;
+}
+
+.publication-article {
+    font-family: "DroidSerif";
+    color: grey;
+    font-size: 14px;
+}
+
+.lire-plus {
+    font-family: "DroidSerif";
+    color: grey;
+}
+
+.titre-h3 {
+    font-family: "Oswald";
+    color: rgb(97, 95, 95);
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Oswald";
+    color: rgb(248, 74, 5);
+}
+
+
+.dates-footer {
+    font-family: "DroidSerif";
+    font-size: 13px;
+    color: grey;
+}
+
+.info-footer {
+    font-family: "DroidSansBold";
+    font-size: 13px;
+    color: grey;
+    list-style-type: none;
+}
+
+#list-contacter {
+    margin-left: -20%;
+    list-style-type: none;
+}
+
+#commentaire-billet {
+    font-size: 12px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: rgb(155, 154, 154);
+}
+
+.gras {
+    color: rgb(59, 58, 58);
+    font-weight: bold;
+}
+
+#e-mail {
+    color: rgb(155, 154, 154);
+
+}
+
+body {
+    line-height: 20px;
+}
+
+#texte-footer {
+    font-family: "DroidSans";
+    color: rgb(150, 147, 147);
+    margin-left: 20%;
+    font-size: 13px;
+}
+
+li {
+    padding-top: 10px;
+}
+
+
+@font-face {
+    font-family: "Oswald";
+    src: url("/fonts/Oswald-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OswaldGras";
+    src: url("/fonts/Oswald-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DroidSerif";
+    src: url("/fonts/DroidSerif.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DroidSerifItalic";
+    src: url("/fonts/DroidSerif-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DroidSerifBold";
+    src: url("/fonts/DroidSerif-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DroidSerifBItalic";
+    src: url("/fonts/DroidSerif-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DroidSans";
+    src: url("/fonts/DroidSans.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DroidSansBold";
+    src: url("/fonts/DroidSans-Bold.ttf") format("truetype");
+}
