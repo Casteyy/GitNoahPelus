@@ -1,0 +1,40 @@
+body {
+    background-color: #ffffaf;
+    text-align: center;
+
+}
+
+#game {
+    display: inline-block;
+    text-align: center;
+    background-color: blue;
+}
+
+.col {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffffaf;
+    margin: 5px;
+    display: inline-block;
+}
+
+.col.empty {
+    cursor: pointer;
+}
+
+.col.rouges {
+    background-color: red;
+}
+
+.col.jaunes {
+    background-color: yellow;
+}
+
+.col.prouges {
+    background-color: tomato;
+}
+
+.col.pjaunes {
+    background-color: gold;
+}
