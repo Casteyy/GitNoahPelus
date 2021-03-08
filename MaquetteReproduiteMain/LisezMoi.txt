@@ -1,0 +1,1 @@
+Ce projet consistait à reproduire le plus fidèlement possible le site présent dans l'image à la racine du dossier à la main.
