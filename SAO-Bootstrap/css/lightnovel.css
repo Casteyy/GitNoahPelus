@@ -1,0 +1,74 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: url(https://coverfiles.alphacoders.com/830/83057.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+a {
+    color: antiquewhite;
+}
+
+@media screen and (max-width: 1359px) {
+
+    div#card1 {
+        position: absolute;
+        top: 25%;
+        bottom: 70%;
+        left: 20%;
+        right: 20%;
+        margin-top: -5em;
+    }
+
+    div#card1 {
+        opacity: 0.8;
+    }
+
+}
+
+@media screen and (min-width: 1360px) {
+    div#card1 {
+        position: absolute;
+        top: 25%;
+        bottom: 70%;
+        left: 20%;
+        right: 20%;
+        margin-top: -5em;
+    }
+
+    div#card1 {
+        opacity: 0.8;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    div#card1 {
+        position: absolute;
+        width: 80%;
+        display: block;
+        top: 22%;
+        left: 10%;
+    }
+
+    div#card1 {
+        opacity: 0.8;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    div#card1 {
+        position: absolute;
+        width: 80%;
+        top: 22%;
+        left: 15%;
+    }
+
+    div#card1 {
+        opacity: 0.8;
+    }
+
+}

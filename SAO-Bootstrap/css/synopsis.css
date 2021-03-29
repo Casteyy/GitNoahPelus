@@ -1,0 +1,131 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: url(https://images8.alphacoders.com/632/thumb-1920-632051.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+a {
+    color: antiquewhite;
+}
+
+
+
+
+@media screen and (max-width: 1359px) {
+
+    div#card1 {
+        position: absolute;
+        top: 25%;
+        bottom: 70%;
+        left: 20%;
+        right: 20%;
+        margin-top: -5em;
+    }
+
+    div#card1 {
+        opacity: 0.8;
+    }
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        left: 20%;
+        right: 20%;
+        margin-top: 33em;
+        top: 18%;
+        bottom: 50%;
+
+    }
+
+}
+
+@media screen and (min-width: 1360px) {
+    div#card1 {
+        position: absolute;
+        top: 25%;
+        bottom: 70%;
+        left: 20%;
+        right: 20%;
+        margin-top: -5em;
+    }
+
+    div#card1 {
+        opacity: 0.8;
+    }
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        left: 20%;
+        right: 20%;
+        margin-top: 40em;
+        top: 18%;
+        bottom: 50%;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    div#card1 {
+        position: absolute;
+        width: 80%;
+        display: block;
+        top: 22%;
+        left: 10%;
+    }
+
+    div#card1 {
+        opacity: 0.8;
+    }
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        width: 80%;
+        display: block;
+        margin-top: 101em;
+        left: 10%;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    div#card1 {
+        position: absolute;
+        width: 80%;
+        top: 22%;
+        left: 15%;
+    }
+
+    div#card1 {
+        opacity: 0.8;
+    }
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        width: 80%;
+        margin-top: 22em;
+        left: 15%;
+    }
+
+}

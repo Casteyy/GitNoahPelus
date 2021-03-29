@@ -1,0 +1,82 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: url(https://wallpapercave.com/wp/wp4355431.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    color: antiquewhite;
+}
+
+div#synopsis {
+    position: absolute;
+    top: 15%;
+    left: 18%;
+}
+
+div#card2 {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    width: 20%;
+    height: auto;
+}
+
+@media screen and (max-width: 1157px) {
+    div#card2 {
+        opacity: 0.8;
+    }
+
+    div#card2 {
+        position: absolute;
+        margin-top: 6em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    div#card2 {
+        opacity: 0.8;
+    }
+
+    div#card2 {
+        position: absolute;
+        margin-top: 13em;
+        width: 35%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 689px) {
+    div#card2 {
+        opacity: 0.8;
+    }
+
+    div#card2 {
+        position: absolute;
+        margin-top: 15em;
+        width: 35%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    div#synopsis {
+        position: absolute;
+        top: 15%;
+        left: 2%;
+    }
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+    div#card2 {
+        position: absolute;
+        margin-top: 17em;
+        width: 70%;
+        left: 17%;
+    }
+}

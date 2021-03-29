@@ -1,0 +1,116 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: url(https://i.pinimg.com/originals/51/48/ca/5148ca60a3cd061d87fbdd69fc604c7f.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    color: antiquewhite;
+}
+
+div#synopsis {
+    position: absolute;
+    top: 15%;
+    left: 18%;
+}
+
+div#card2 {
+    position: absolute;
+    left: 40%;
+    top: 47%;
+    width: 20%;
+
+}
+
+@media screen and (max-width: 1157px) {
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        margin-top: 3em;
+    }
+
+
+}
+
+@media screen and (max-width: 970px) {
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        margin-top: 9em;
+        width: 40%;
+        left: 28%;
+    }
+
+}
+
+@media screen and (max-width: 775px) {
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        margin-top: 16em;
+    }
+
+    div#synopsis {
+        position: absolute;
+        top: 15%;
+        left: 18%;
+    }
+}
+
+@media screen and (max-width: 651px) {
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        margin-top: 20em;
+    }
+
+    div#synopsis {
+        position: absolute;
+        top: 15%;
+        left: 3%;
+    }
+}
+    
+@media screen and (max-width: 420px) {
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        margin-top: 30em;
+        width: 80%;
+        left: 15%;
+    }
+
+    div#synopsis {
+        position: absolute;
+        top: 15%;
+        left: 3%;
+    }
+
+}

@@ -1,0 +1,3 @@
+Vous pouvez retrouver ici le tout premier site web que j'ai réalisé qui m'a servi de "démonstration" pour ma candidature à Epitech. 
+C'est un petit site réalisé en bootstrap sur le manga/animé Sword Art Online, celui-ci n'est pas totalement fonctionnel, le back de la page de contact est absent
+et le responsive de l'index également, il est resté tel qu'à sa création. 

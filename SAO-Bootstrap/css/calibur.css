@@ -1,0 +1,83 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: url(https://i.pinimg.com/originals/51/48/ca/5148ca60a3cd061d87fbdd69fc604c7f.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    color: antiquewhite;
+}
+
+div#synopsis {
+    position: absolute;
+    top: 15%;
+    left: 18%;
+}
+
+div#card2 {
+    position: absolute;
+    left: 40%;
+    top: 37%;
+    width: 20%;
+    height: auto;
+}
+
+@media screen and (max-width: 1157px) {
+    div#card2 {
+        opacity: 0.8;
+    }
+
+    div#card2 {
+        position: absolute;
+        margin-top: 6em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    div#card2 {
+        opacity: 0.8;
+    }
+
+    div#card2 {
+        position: absolute;
+        margin-top: 6em;
+        width: 35%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 689px) {
+    div#card2 {
+        opacity: 0.8;
+    }
+
+    div#card2 {
+        position: absolute;
+        margin-top: 15em;
+        width: 35%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    div#synopsis {
+        position: absolute;
+        top: 15%;
+        left: 2%;
+    }
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+    div#card2 {
+        position: absolute;
+        margin-top: 17em;
+        width: 70%;
+        left: 17%;
+    }
+}
+

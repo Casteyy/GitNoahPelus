@@ -1,0 +1,159 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: url(https://images2.alphacoders.com/873/thumb-1920-873804.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    color: antiquewhite;
+}
+
+div#synopsis {
+    position: absolute;
+    top: 15%;
+    left: 18%;
+}
+
+div#card2 {
+    position: absolute;
+    left: 40%;
+    top: 75%;
+    width: 20%;
+    height: auto;
+}
+
+@media screen and (max-width: 1157px) {
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        margin-top: 6em;
+    }
+
+
+}
+
+@media screen and (max-width: 938px) {
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        margin-top: 14em;
+        width: 40%;
+        left: 28%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        margin-top: 23em;
+    }
+
+    div#synopsis {
+        position: absolute;
+        top: 15%;
+        left: 18%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        margin-top: 29em;
+        left: 5%;
+    }
+
+    div#synopsis {
+        position: absolute;
+        top: 15%;
+        left: 2%;
+    }
+}
+
+
+@media screen and (max-width: 496px) {
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        margin-top: 33em;
+        width: 65%;
+        left: 15%;
+    }
+
+    div#synopsis {
+        position: absolute;
+        top: 15%;
+        left: 2%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        margin-top: 42em;
+        width: 65%;
+        left: 15%;
+    }
+
+    div#synopsis {
+        position: absolute;
+        top: 15%;
+        left: 2%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    div#card2 {
+        opacity: 0.8;
+    }
+
+
+    div#card2 {
+        position: absolute;
+        margin-top: 55em;
+        width: 65%;
+        left: 15%;
+    }
+
+    div#synopsis {
+        position: absolute;
+        top: 15%;
+        left: 2%;
+    }
+}

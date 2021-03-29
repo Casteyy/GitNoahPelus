@@ -1,0 +1,19 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: url(https://i.pinimg.com/originals/51/48/ca/5148ca60a3cd061d87fbdd69fc604c7f.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    color: antiquewhite;
+}
+
+section#page-contact {
+   position: absolute;
+   top: 15%;
+   left: 25%;
+   color: antiquewhite;
+   opacity: 0.9;
+}
