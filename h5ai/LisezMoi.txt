@@ -1,0 +1,1 @@
+Ce projet consistait à réaliser soi-même une explorateur de fichier en php se rapprochant de h5ai.
